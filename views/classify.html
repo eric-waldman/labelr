@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Labelr</title>
+    <link rel="stylesheet" href="classify.css">
+    <link rel="stylesheet" href="main.css">
+    <script
+          src="https://code.jquery.com/jquery-2.2.4.js"
+          integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+          crossorigin="anonymous"></script>
+    </head>
+<body>
+  
+  <div class="data">
+    <img src="" />
+  </div>
+  
+  <div class="forms">
+      
+    <form action="/classify" method="post">
+      <input name="choice" value="pyr" />
+      <input name="id" value="" />
+      <input type="submit" value="Pyramidal" />
+    </form>
+
+    <form action="/classify" method="post">
+      <input name="choice" value="reg" />
+      <input name="id" value="" />
+      <input type="submit" value="Regular" />
+    </form>
+
+    <form action="/classify" method="post">
+      <input name="choice" value="unk" />
+      <input name="id" value="" />
+      <input type="submit" value="Unknown" />
+    </form>
+    
+  </div>
+  
+  <div class="ta-c">
+    <a class="button" href="/results">Download Results</a>
+  </div>
+      
+  <script src="/classify.js"></script>
+</body>
+</html>

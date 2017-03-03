@@ -1,0 +1,41 @@
+.ta-c{
+  text-align:center;
+  padding-top: 20px;
+}
+
+#form{
+  display:inline-block;
+  text-align:center;
+}
+
+body{
+  background-color:#ececec;
+}
+
+.button{
+  padding:10px;
+  border: none;
+  margin: 20px auto;
+  background-color:blue;
+  cursor:hand;
+  color: white;
+  border-radius: 3px;
+  font-family: sans-serif;
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+  width: 200px;
+  display: block;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button.green {
+  background-color: green;
+}
+.button.yellow {
+  background-color: gray;
+  width: 300px;
+  text-align: center;
+}
