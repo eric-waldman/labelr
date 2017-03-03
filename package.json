@@ -1,0 +1,27 @@
+{
+	"name": "labelr",
+	"version": "1.0.0",
+	"description": "Labeling stuff!!",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.15.0",
+		"body-parser": "^1.16.1",
+		"cookie-session": "^1.2.0",
+		"multer": "^1.3.0",
+		"socket.io": "^1.7.3"
+	},
+	"engines": {
+		"node": "7.6.3"
+	},
+	"repository": {
+		"url": "https://gomix.com/#!/project/welcome-project"
+	},
+	"keywords": [
+		"node",
+		"gomix",
+		"express"
+	]
+}

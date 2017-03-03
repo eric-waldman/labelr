@@ -1,0 +1,35 @@
+form input[name=choice],
+form input[name=id] {
+  display: none;
+}
+
+.data {
+  padding: 50px;
+  text-align: center;
+}
+
+.forms {
+  padding: 50px;
+  text-align: center;
+}
+
+input[type=submit] {
+  padding:10px;
+  width:50px;
+  background-color:red;
+  cursor:hand;
+  color: white;
+  border-radius: 3px;
+  font-family: sans-serif;
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+  display: inline-block;
+  width: 200px;
+  border: none;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
