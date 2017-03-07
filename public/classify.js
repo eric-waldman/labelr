@@ -6,6 +6,8 @@ $.get('/question', function(response) {
       image = response.image;
   // Set image
   $('img').attr('src', '/data/' + image);
+  // Set url
+  $('.url').text(location.href);
   // Clone form
   for (var i = 1; i < labels.length; i++) {
       form.clone().appendTo(forms);
