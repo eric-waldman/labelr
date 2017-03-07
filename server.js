@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const http = require('http');
 const path = require('path');
 const crypto = require('crypto');
+const conf = require('./config.json');
 
 // Initialize the web server and its routing
 let app = express();
@@ -107,6 +108,7 @@ app.get('/question', function(request, response) {
   
   response.send({
     id: id,
-    image: dataset[id].filename
+    image: dataset[id].filename,
+    labels: conf.labels
   });
 });

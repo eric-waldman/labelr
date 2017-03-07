@@ -1,0 +1,7 @@
+{
+    "labels": [
+        [ "pyr", "Pyramidal" ],
+        [ "reg", "Regular" ],
+        [ "unk", "Unknown" ]
+    ]
+}
