@@ -7,7 +7,7 @@ It was created during Brainhack Montreal by the Deep Neuron team.
 
 By default, an image can be classified as either "Pyramidal", "Regular" or "Unknown". These choices can be changed by editing `views/classify.html`.
 
-After uploading the training image set in JPEG, PNG or GIF, you will be taken to the classification page. The URL for this page can be distributed amongst all experts who will be labelling the data. When all the data is labelled, a JSON file with the results will be genrated in the format:
+After uploading the training image set in JPEG, PNG or GIF, you will be taken to the classification page. The URL for this page can be distributed amongst all experts who will be labelling the data. When all the data is labelled, the results will be compiled into a JSON with the following format:
 ```
 { "<filename>": "label" }
 ```
