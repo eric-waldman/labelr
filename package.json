@@ -1,7 +1,7 @@
 {
 	"name": "labelr",
 	"version": "1.0.0",
-	"description": "Labeling stuff!!",
+	"description": "Label training data for image classification.",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
@@ -15,11 +15,6 @@
 		"node": "7.6.3"
 	},
 	"repository": {
-		"url": "https://gomix.com/#!/project/welcome-project"
-	},
-	"keywords": [
-		"node",
-		"gomix",
-		"express"
-	]
+		"url": "https://github.com/BigManWalter/labelr"
+	}
 }
