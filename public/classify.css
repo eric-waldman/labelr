@@ -3,7 +3,7 @@ form input[name=id] {
   display: none;
 }
 
-.data {
+.data, .titles {
   padding: 50px;
   text-align: center;
 }
